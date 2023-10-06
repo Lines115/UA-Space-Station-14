@@ -27,7 +27,11 @@ dotnet build --os linux
 cd bin/Content.Server
 ```
 Далі, для запуску серверу, в папці UA-Space-Station-14/bin/Content.Server, запустіть Content.Server.exe
-P.s. Також для Windows потрібно завантажити [git](https://git-scm.com/downloads), [python](https://python.org), [dotnet7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+P.s. Також для Windows потрібно завантажити [git](https://git-scm.com/downloads), [python](https://python.org/downloads), [dotnet7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- - -
+### Допомога
+Якщо ви розробник та хочете допомогти в розробці не офіційного перекладу, пишіть мені на пошту: lines115@duck.com
+Якщо ви не розробник та хочете допомогти в розрозбці не офіційного перекладу, можете стати моїм спонсором на github
 - - -
 ### Changelog
 06.10.2023 19:00 - Створення репозиторію
