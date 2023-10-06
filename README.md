@@ -4,10 +4,10 @@
 ### Про українську версію SS14 (Space Station 14)
 Це не офіційний переклад SS14 з видаленням контенту країни-агрессора та деякими поліпшеннями.
 - - -
-### Використання
+# Використання
 Якщо ви не розробник та хочете створити сервер для гри з друзями/для глобальної гри, то просто завантажте потрібну версію серверу з релізів
 Якщо ви розробник, хочете завантажити та скомпілювати сервер, виконайте ці команди в консолі:
-# Linux:
+### Linux:
 ```
 apt update && apt upgrade
 apt install git dotnet7 python3
@@ -18,7 +18,7 @@ dotnet7 build --os linux
 cd bin/Content.Server
 ```
 Далі, для запуску серверу, в папці UA-Space-Station-14/bin/Content.Server, напишіть: ./Content.Server
-# Windows:
+### Windows:
 ```
 git clone https://github.com/Lines115/UA-Space-Station-14.git
 cd UA-Space-Station-14
@@ -29,9 +29,11 @@ cd bin/Content.Server
 Далі, для запуску серверу, в папці UA-Space-Station-14/bin/Content.Server, запустіть Content.Server.exe
 P.s. Також для Windows потрібно завантажити [git](https://git-scm.com/downloads), [python](https://python.org/downloads), [dotnet7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - - -
-### Допомога
+# Допомога
 Якщо ви розробник та хочете допомогти в розробці не офіційного перекладу, пишіть мені на пошту: lines115@duck.com
 Якщо ви не розробник та хочете допомогти в розрозбці не офіційного перекладу, можете стати моїм спонсором на github
 - - -
 ### Changelog
 06.10.2023 19:00 - Створення репозиторію
+
+# Слава Україні!
