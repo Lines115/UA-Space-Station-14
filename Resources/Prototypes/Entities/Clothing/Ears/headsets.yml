@@ -1,0 +1,273 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingHeadset
+  name: Гарнітура
+  description: Оновлений модульний інтерком, який встановлюється на голову. Приймає ключі шифрування.
+  components:
+  - type: ContainerContainer
+    containers:
+      key_slots: !type:Container
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+  - type: Headset
+  - type: EncryptionKeyHolder
+    keySlots: 4
+  - type: Sprite
+    state: icon
+  - type: Clothing
+    slots:
+    - ears
+    sprite: Clothing/Ears/Headsets/base.rsi
+  - type: GuideHelp
+    guides:
+    - Radio
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetGrey
+  name: Гарнітура Пассажира
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/base.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetCargo
+  name: Гарнітура Карго
+  description: Гарнітура, яку використовують працівники Карго.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCargo
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/cargo.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/cargo.rsi
+
+- type: entity
+  parent: ClothingHeadsetCargo
+  id: ClothingHeadsetMining
+  name: Гарнітура Шахтера
+  description: Гарнітура, яку використовують Шахтари.
+  components:
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/mining.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/mining.rsi
+
+- type: entity
+  parent: ClothingHeadsetCargo
+  id: ClothingHeadsetQM
+  name: Гарнітура Голови Карго
+  description: Гарнітура, яка використовується Головою Карго.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCargo
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetCentCom
+  name: Гарнітура Центрального Командування
+  description: Гарнітура, яка використовується вищими ешелонами НТ.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCentCom
+      - EncryptionKeyStationMaster
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/centcom.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/centcom.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetCommand
+  name: Командна гарнітура
+  description: Гарнітура з каналом командування.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyStationMaster
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/command.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/command.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetEngineering
+  name: Гарнітура Інженера
+  description: Гарнітура для інженерів, щоб спілкуватися, поки станція горить навколо них.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyEngineering
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/engineering.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/engineering.rsi
+
+- type: entity
+  parent: ClothingHeadsetEngineering
+  id: ClothingHeadsetCE
+  name: Гарнітура Головного Інженера
+  description: Гарнітура головного інженера для ігнорування всіх екстрених викликів.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyEngineering
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetMedical
+  name: Гарнітура медичного відділу
+  description: Гарнітура для навченого персоналу медбаю.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyMedical
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/medical.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/medical.rsi
+
+- type: entity
+  parent: ClothingHeadsetMedical
+  id: ClothingHeadsetCMO
+  name: Гарнітура Головного Лікаря
+  description: Гарнітура, яка використовується Головним Лікарем.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyMedical
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetScience
+  name: Гарнітура Вченого
+  description: Наукова гарнітура. Як завжди.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyScience
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/science.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/science.rsi
+
+- type: entity
+  parent: ClothingHeadsetScience
+  id: ClothingHeadsetMedicalScience
+  name: Медично-дослідницька гарнітура
+  description: Гарнітура, яка є результатом поєднання медицини та науки.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyMedicalScience
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/medicalscience.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/medicalscience.rsi
+
+- type: entity
+  parent: ClothingHeadsetScience
+  id: ClothingHeadsetRobotics
+  name: Гарнітура Робототехніка
+  description: Створено спеціально для робототехніків, які не можуть вибирати між відділами.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyRobo
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/robotics.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/robotics.rsi
+
+- type: entity
+  parent: ClothingHeadsetScience
+  id: ClothingHeadsetRD
+  name: Гарнітура Директора Наукового Відділу
+  description: Раніше Ламарр любив це жувати...
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyScience
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetSecurity
+  name: Гарнітура Охороний
+  description: Цим користується елітна служба безпеки.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/security.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetBrigmedic
+  name: Гарнітура Брігмеда
+  description: Гарнітура, яка допомагає почути передсмертні крики.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyMedical
+      - EncryptionKeySecurity
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/brigmedic.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/brigmedic.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetService
+  name: Сервісна Гарнітура
+  description: Гарнітура, яка використовується обслуговуючим персоналом, який має підтримувати станцію заповненою, щасливою та чистою.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyService
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/service.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/service.rsi

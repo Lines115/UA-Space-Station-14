@@ -1,0 +1,171 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackSatchel
+  name: Ранець
+  description: Модний ранець.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/satchel.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelLeather
+  name: Шкіряний ранець
+  description: Модна сумка з минулої епохи.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/leather.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelEngineering
+  name: Ранець Інженера
+  description: Міцний ранець з додатковими кишенями.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/engineering.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelAtmospherics
+  name: Ранець Атмосферного Інженера
+  description: Міцний ранець із вогнестійких волокон. Запах нагадує плазмою.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/atmospherics.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelClown
+  name: Ранець Клоуна
+  description: Щоб швидко бігати від Охорони
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/clown.rsi
+  - type: Storage
+    storageOpenSound:
+      collection: BikeHorn
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelMime
+  name: Ранець Міма
+  description: Ранець, створений для тихого та експресивного мистецтва міма.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/mime.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelMedical
+  name: Ранець Лікаря
+  description: Стерильний ранець, який використовується в медичних відділеннях. # A sterile satchel used in medical departments.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/medical.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelChemistry
+  name: Ранець Хіміка
+  description: Стерильний ранець аптечних кольорів.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/chemistry.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelVirology
+  name: Ранець Вірусолога
+  description: Ранець з гіпоалергенних волокон. Він призначений для запобігання поширенню хвороби. Пахне мавпою.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/virology.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelGenetics
+  name: Ранець Генетика
+  description: Стерильний ранець в біло-зелених кольорах.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/genetics.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelScience
+  name: Ранець Вченого
+  description: Ранець для зберігання дослідницьких матеріалів.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/science.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelSecurity
+  name: Ранець Охорони
+  description: Міцний ранець для потреб Охорони.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/security.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelBrigmedic
+  name: Ранець Брігмеда
+  description: Стерильний ранець для медичних потреб.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/brigmedic.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelCaptain
+  name: Ранець Капітана
+  description: Ексклюзивний ранець для офіцерів НТ.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/captain.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelHydroponics
+  name: Ранець Ботаніка
+  description: Ранець зроблений з повністю природних матеріалів
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/hydroponics.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelCargo
+  name: Ранець Карго
+  description: Міцний ранець для крадіжки вантажу. Напів стертий текст "Слава Каргонії!".
+  components:
+    - type: Sprite
+      sprite: Clothing/Back/Satchels/cargo.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelSalvage
+  name: Ранець Шахтера
+  description: Міцний ранець для здобування руди.
+  components:
+    - type: Sprite
+      sprite: Clothing/Back/Satchels/salvage.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelHolding
+  name: Блюспейс ранець
+  description: Сумка, яка відкривається в локалізовану кишеню Блюспейс.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/holding.rsi
+    state: icon
+    layers:
+    - state: icon
+    - state: icon-unlit
+      shader: unshaded
+  - type: Storage
+    capacity: 9999

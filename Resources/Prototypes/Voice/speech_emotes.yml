@@ -1,0 +1,385 @@
+# # вокальні жести
+# - type: emote
+#   id: Scream
+#   category: Vocal
+#   chatMessages: [крикне!]
+#   chatTriggers:
+#     - крик
+#     - кричить
+#     - кричить.
+#     - кричить!
+#     - кричання
+#     - кричав
+#     - виття
+#     - виття.
+#     - виття!
+#     - виття!
+#     - виттяє
+#     - виттяло
+#     - скрип
+#     - скрипи
+#     - скрипи.
+#     - скрипи!
+#     - скрекіт
+#     - скрекіти
+#     - скрекіти.
+#     - скрекіти!
+#     - скрекітання
+#     - скрекітнув
+#     - крикнути
+#     - кричала
+#     - кричать
+#     - кричать.
+#     - кричать!
+
+# - type: emote
+#   id: Laugh
+#   category: Vocal
+#   chatMessages: [сміється]
+#   chatTriggers:
+#     - сміх
+#     - сміється
+#     - сміється.
+#     - сміється!
+#     - сміятися
+#     - сміявся
+#     - хихікає
+#     - хихікають
+#     - хихікають.
+#     - хихікають!
+#     - хихікав
+#     - хихікання
+#     - хохот
+#     - хохоче
+#     - хохоче.
+#     - хохоче!
+#     - хохочання
+#     - хохотав
+
+# - type: emote
+#   id: Sigh
+#   category: Vocal
+#   chatMessages: [зітхає]
+#   chatTriggers:
+#     - зітхання
+#     - зітхає
+#     - зітхав
+#     - зітхання.
+#     - зітхає.
+#     - зітхав.
+
+# - type: emote
+#   id: Whistle
+#   category: Vocal
+#   chatMessages: [свистить]
+#   chatTriggers:
+#     - свист
+#     - свистить.
+#     - свистить!
+#     - свистить
+#     - свистить.
+#     - свистить!
+#     - вивід даних
+#     - вивід даних.
+#     - вивід даних!
+
+# - type: emote
+#   id: Crying
+#   category: Vocal
+#   chatMessages: [плаче]
+#   chatTriggers:
+#     - плач
+#     - плач.
+#     - плач!
+#     - плаче
+#     - плаче.
+#     - плаче!
+#     - плаче
+#     - плаче.
+#     - плаче!
+
+# - type: emote
+#   id: Squish
+#   category: Vocal
+#   chatMessages: [ліпка]
+#   chatTriggers:
+#     - ліпка
+#     - ліпка.
+#     - ліпка!
+#     - ліпкається
+#     - ліпкається.
+#     - ліпкається!
+#     - ліпки
+#     - ліпки.
+#     - ліпки!
+
+# - type: emote
+#   id: Chitter
+#   category: Vocal
+#   chatMessages: [щебет]
+#   chatTriggers:
+#    - щебет
+#    - щебет.
+#    - щебет!
+#    - щебети
+#    - щебети.
+#    - щебети!
+#    - щебетав
+#    - щебетав.
+#    - щебетав!
+
+# - type: emote
+#   id: Squeak
+#   category: Vocal
+#   chatMessages: [пищить]
+#   chatTriggers:
+#    - пищить
+#    - пищить.
+#    - пищить!
+#    - пищить
+#    - пищить.
+#    - пищить!
+#    - пищав
+#    - пищав.
+#    - пищав!
+
+# # жести руками
+# - type: emote
+#   id: Clap
+#   category: Hands
+#   chatMessages: [плескає!]
+#   chatTriggers:
+#     - плеск
+#     - плескає
+#     - плескає.
+#     - плескає!
+#     - плескання
+#     - плескав
+
+# - type: emote
+#   id: Snap
+#   category: Hands
+#   chatMessages: [щелкає пальцями]
+#   chatTriggers:
+#     - щелкати
+#     - щелкає
+#     - щелкається
+#     - щелкнув
+#     - щелкає пальцями
+#     - щелкає пальцями
+#     - щелкає пальцями.
+#     - щелкає пальцями!
+#     - щелкає їхніми пальцями
+#     - щелкає їхніми пальцями.
+#     - щелкає їхніми пальцями!
+#     - щелкає пальцями
+#     - щелкнув пальцями
+
+# - type: emote
+#   id: Salute
+#   category: Hands
+#   chatMessages: [Вітання]
+#   chatTriggers:
+#     - вітання
+#     - вітає
+#     - вітає.
+#     - вітає!
+#     - вітається
+#     - віталися!
+
+# - type: emote
+#   id: DefaultDeathgasp
+#   chatMessages: ["жест-вдих-смерті"]
+#   chatTriggers:
+#   - вдих-смерті
+# vocal emotes
+- type: emote
+  id: Scream
+  category: Vocal
+  chatMessages: [screams!]
+  chatTriggers:
+    - scream
+    - screams
+    - screams.
+    - screams!
+    - screaming
+    - screamed
+    - shriek
+    - shrieks
+    - shrieks.
+    - shrieks!
+    - shrieking
+    - shrieked
+    - screech
+    - screeches
+    - screeches.
+    - screeches!
+    - screeching
+    - screeched
+    - yell
+    - yells
+    - yells.
+    - yells!
+    - yelled
+    - yelling
+
+- type: emote
+  id: Laugh
+  category: Vocal
+  chatMessages: [laughs]
+  chatTriggers:
+    - laugh
+    - laughs
+    - laughs.
+    - laughs!
+    - laughing
+    - laughed
+    - chuckle
+    - chuckles
+    - chuckles.
+    - chuckles!
+    - chuckled
+    - chuckling
+    - giggle
+    - giggles
+    - giggles.
+    - giggles!
+    - giggling
+    - giggled
+
+- type: emote
+  id: Sigh
+  category: Vocal
+  chatMessages: [sighs]
+  chatTriggers:
+    - sigh
+    - sighs
+    - sighed
+    - sigh.
+    - sighs.
+    - sighed.
+
+- type: emote
+  id: Whistle
+  category: Vocal
+  chatMessages: [whistle]
+  chatTriggers:
+    - whistle
+    - whistle.
+    - whistle!
+    - whistles
+    - whistles.
+    - whistles!
+    - whistleblowing
+    - whistleblowing.
+    - whistleblowing!
+
+- type: emote
+  id: Crying
+  category: Vocal
+  chatMessages: [crying]
+  chatTriggers:
+    - cry
+    - cry.
+    - cry!
+    - crying
+    - crying.
+    - crying!
+    - cries
+    - cries.
+    - cries!
+
+- type: emote
+  id: Squish
+  category: Vocal
+  chatMessages: [squishing]
+  chatTriggers:
+    - squish
+    - squish.
+    - squish!
+    - squishing
+    - squishing.
+    - squishing!
+    - squishes
+    - squishes.
+    - squishes!
+
+- type: emote
+  id: Chitter
+  category: Vocal
+  chatMessages: [chitters.]
+  chatTriggers:
+   - chitter
+   - chitter.
+   - chitter!
+   - chitters
+   - chitters.
+   - chitters!
+   - chittered
+   - chittered.
+   - chittered!
+
+- type: emote
+  id: Squeak
+  category: Vocal
+  chatMessages: [squeaks.]
+  chatTriggers:
+   - squeak
+   - squeak.
+   - squeak!
+   - squeaks
+   - squeaks.
+   - squeaks!
+   - squeaked
+   - squeaked.
+   - squeaked!
+
+# hand emotes
+- type: emote
+  id: Clap
+  category: Hands
+  chatMessages: [claps!]
+  chatTriggers:
+    - clap
+    - claps
+    - claps.
+    - claps!
+    - clapping
+    - clapped
+
+- type: emote
+  id: Snap
+  category: Hands
+  chatMessages: [snaps fingers] # snaps <{THEIR($ent)}> fingers?
+  chatTriggers:
+    - snap
+    - snaps
+    - snapping
+    - snapped
+    - snap fingers
+    - snaps fingers
+    - snaps fingers.
+    - snaps fingers!
+    - snaps their fingers
+    - snaps their fingers.
+    - snaps their fingers!
+    - snapping fingers
+    - snapped fingers
+
+- type: emote
+  id: Salute
+  category: Hands
+  chatMessages: [Salute]
+  chatTriggers:
+    - salute
+    - salute.
+    - salute!
+    - salutes
+    - salutes.
+    - salutes!
+
+- type: emote
+  id: DefaultDeathgasp
+  chatMessages: ["emote-deathgasp"]
+  chatTriggers:
+  - deathgasp

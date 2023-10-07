@@ -1,0 +1,102 @@
+# - type: emote
+#   id: Sneeze
+#   category: Vocal
+#   chatMessages: [чхає]
+    
+# - type: emote
+#   id: Cough
+#   category: Vocal
+#   chatMessages: [кашляє]
+#   chatTriggers:
+#     - cough
+#     - coughs
+#     - кашляє
+
+# - type: emote
+#   id: CatMeow
+#   category: Vocal
+#   chatMessages: [маяукає]
+
+# - type: emote
+#   id: CatHisses
+#   category: Vocal
+#   chatMessages: [шипить]
+
+# - type: emote
+#   id: MonkeyScreeches
+#   category: Vocal
+#   chatMessages: [вережить]
+
+# - type: emote
+#   id: RobotBeep
+#   category: Vocal
+#   chatMessages: [біп]
+
+# - type: emote
+#   id: Yawn
+#   category: Vocal
+#   chatMessages: [позіхає]
+#   chatTriggers:
+#     - yawn
+#     - yawns
+#     - похіє
+
+# - type: emote
+#   id: Snore
+#   category: Vocal
+#   chatMessages: [хропе]
+
+# - type: emote
+#   id: Honk
+#   category: Vocal
+#   chatMessages: [honks]
+- type: emote
+  id: Sneeze
+  category: Vocal
+  chatMessages: [sneezes]
+    
+- type: emote
+  id: Cough
+  category: Vocal
+  chatMessages: [coughs]
+  chatTriggers:
+    - cough
+    - coughs
+
+- type: emote
+  id: CatMeow
+  category: Vocal
+  chatMessages: [meows]
+
+- type: emote
+  id: CatHisses
+  category: Vocal
+  chatMessages: [hisses]
+
+- type: emote
+  id: MonkeyScreeches
+  category: Vocal
+  chatMessages: [screeches]
+
+- type: emote
+  id: RobotBeep
+  category: Vocal
+  chatMessages: [beeps]
+
+- type: emote
+  id: Yawn
+  category: Vocal
+  chatMessages: [yawns]
+  chatTriggers:
+    - yawn
+    - yawns
+
+- type: emote
+  id: Snore
+  category: Vocal
+  chatMessages: [snores]
+
+- type: emote
+  id: Honk
+  category: Vocal
+  chatMessages: [honks]
