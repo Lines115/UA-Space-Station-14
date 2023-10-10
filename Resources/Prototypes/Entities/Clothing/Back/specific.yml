@@ -23,7 +23,7 @@
   parent: Clothing
   id: ClothingBackpackWaterTank
   name: Рюкзак з водою # backpack water tank
-  description: Holds a large amount of fluids. Supplies to spray nozzles in your hands.
+  description: Утримує велику кількість рідини. Розхідники для розпилювачів форсунок у ваших руках.
   components:
   - type: Tag
     tags:

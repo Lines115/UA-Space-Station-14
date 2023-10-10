@@ -21,3 +21,14 @@
       interfaces:
         - key: enum.ChameleonUiKey.Key
           type: ChameleonBoundUserInterface
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitYastochHoodie
+  name: Червоно-темне худі в червону клітинку
+  description: Файне худі ? Сорочка ? Від Yastoch. co.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/yastoch_hoodie.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/yastoch_hoodie.rsi

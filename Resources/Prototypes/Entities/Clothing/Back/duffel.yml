@@ -149,7 +149,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelSalvage
   name: Спортивна сумка Шахтера
-  description:Велика сумка для зберігання екзотичних скарбів.
+  description: Велика сумка для зберігання екзотичних скарбів.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/salvage.rsi
@@ -158,7 +158,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelSyndicate
   name: Спортивна сумка Синдикату
-  description: Великий Спортивна сумка для різних речей синдикату. Напис на ній "Смерть НТ!"
+  description: 'Великий Спортивна сумка для різних речей синдикату. Містить напис: "Смерть НТ!"'
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi

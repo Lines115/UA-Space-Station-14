@@ -127,7 +127,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackHydroponics
   name: Рюкзак ботаніка
-  description: Це рюкзак з повністю натуральних волокон.
+  description: Цей рюкзак з повністю натуральних волокон.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/hydroponics.rsi

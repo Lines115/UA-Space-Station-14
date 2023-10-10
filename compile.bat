@@ -1,4 +1,4 @@
 @echo off
-echo Compiling project with dotnet7...
-dotnet build
+echo Compiling release project with dotnet7...
+dotnet build --configuration Release
 pause

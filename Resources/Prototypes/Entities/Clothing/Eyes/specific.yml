@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingEyesBase
   id: ClothingEyesChameleon # no flash immunity, sorry
-  name: sun glasses
-  description: Useful both for security and cargonia.
+  name: Сонцезахисні окуляри
+  description: Корисно як для безпеки, так і для Каргонії.
   suffix: Chameleon
   components:
     - type: Tag

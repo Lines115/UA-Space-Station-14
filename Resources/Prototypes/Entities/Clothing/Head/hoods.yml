@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBioGeneral
-  name: bio hood
-  suffix: Generic
-  description: A hood that protects the head and face from biological contaminants.
+  name: Біо-худ
+  suffix: Загальний
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/general.rsi
@@ -17,9 +17,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioCmo
-  name: bio hood
-  suffix: CMO
-  description: An advanced hood for chief medical officers that protects the head and face from biological contaminants.
+  name: Біо-худ
+  suffix: Головного Лікаря
+  description: Удосконалений капюшон для головних лікарів, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/cmo.rsi
@@ -29,9 +29,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioJanitor
-  name: bio hood
-  suffix: Janitor
-  description: A hood that protects the head and face from biological contaminants.
+  name: Біо-худ
+  suffix: Прибиральника
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/janitor.rsi
@@ -41,9 +41,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioScientist
-  name: bio hood
-  suffix: Science
-  description: A hood that protects the head and face from biological contaminants.
+  name: Біо-худ
+  suffix: Науковий
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/scientist.rsi
@@ -53,9 +53,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioSecurity
-  name: bio hood
-  suffix: Security
-  description: A hood that protects the head and face from biological contaminants.
+  name: Біо-худ
+  suffix: Безпеки
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/security.rsi
@@ -65,9 +65,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioVirology
-  name: bio hood
-  suffix: Virology
-  description: A hood that protects the head and face from biological contaminants.
+  name: Біо-худ
+  suffix: Вірусології
+  description: Капюшон, який захищає голову та обличчя від біологічних забруднень.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/virology.rsi
