@@ -32,7 +32,7 @@ cd bin/Content.Server
 P.s. Також для Windows потрібно завантажити [git](https://git-scm.com/downloads), [python](https://python.org/downloads), [dotnet7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - - -
 # Допомога
-Якщо ви розробник та хочете допомогти в розробці не офіційного перекладу, пишіть мені на пошту: [lines115@duck.com](mailto:lines115@duck.com) або мені в діскорд: [lines8810](https://discord.com/user/lines8810)
+Якщо ви розробник та хочете допомогти в розробці не офіційного перекладу, пишіть мені на пошту: [lines115@duck.com](mailto:lines115@duck.com) або мені в діскорд: lines8810
 
 Якщо ви не розробник та хочете допомогти в розрозбці не офіційного перекладу, можете стати моїм спонсором на github
 - - -
