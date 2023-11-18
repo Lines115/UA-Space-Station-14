@@ -1,4 +1,4 @@
-[English version](README_ENG.md)
+[English version / Англіська версія](README_ENG.md)
 - - -
 # ⚠️Статус проекта: Частоково Закинутий⚠️
 ### Причини
