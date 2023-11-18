@@ -1,3 +1,4 @@
+[Українська версія / Ukranian Version](README.md)
 - - -
 # ⚠️Project Status: Partially Abandoned⚠️
 ### Reasons
