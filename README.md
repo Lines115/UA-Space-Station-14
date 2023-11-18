@@ -1,4 +1,4 @@
-(English version)[github.com/Lines115/UA-Space-Station-14/README_ENG.md]
+[English version](github.com/Lines115/UA-Space-Station-14/README_ENG.md)
 - - -
 # ⚠️Статус проекта: Частоково Закинутий⚠️
 ### Причини
