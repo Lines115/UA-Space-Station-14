@@ -1,25 +1,24 @@
 - - -
-# ⚠️Статус проекта: Частоково Закинутий⚠️
-### Причини
-- Немає мотивації для розробки
-- Немає фідбеку (Не знаю чи комусь це взагалі подобається...)
-- Переклад зробив багато різних помилок в коді, їх виправлення дуже важка робота
-- Занадто великий обляг роботи в цілому
-### Чим це погано ?
-- Стара версія гри, багато оновленнь не додано
-- Гра перекладена в цілому десь на 5%-6% і далі не буде скоріш за все перекладатись
-- Поширення україномовного контенту більше не буде серед Space Station 14 та її комюніті
+# ⚠️Project Status: Partially Abandoned⚠️
+### Reasons
+- Lack of motivation.
+- Absence of feedback, unsure of community interest [1]
+- Translation errors in code, challenging to rectify.
+- Overwhelming workload.
+### What's Wrong ?
+- Based on an outdated game version with minimal updates.
+- Only 5%-6% translated, unlikely to continue further.
+- Ukrainian content distribution discontinued among Space Station 14 and its community.
 - - -
 # UA-Space-Station-14
-Українська версія Space Station 14
+Ukrainian version of Space Station 14.
 - - -
-### Про українську версію SS14 (Space Station 14)
-Це не офіційний переклад SS14 з видаленням контенту країни-агрессора та деякими поліпшеннями.
+### About Ukrainian SS14 (Space Station 14)
+Unofficial SS14 translation with content adjustments excluding aggressive country elements.
 - - -
 # Використання
-Якщо ви не розробник та хочете створити сервер для гри з друзями/для глобальної гри, то просто завантажте потрібну версію серверу з релізів, розпакуйте та запустіть потрібний файл ( Windows: /Content.Server.exe , Linux: Content.Server )
-
-Якщо ви розробник, хочете завантажити та скомпілювати сервер, виконайте ці команди в консолі:
+Non-developers seeking to create a server for casual or global gaming can download the server version from releases, extract, and run the required file (Windows: /Content.Server.exe, Linux: Content.Server).
+Developers interested in downloading and compiling the server can execute these commands in the console:
 ### Linux:
 ```
 apt update && apt upgrade
@@ -30,7 +29,6 @@ python3 RUN_THIS.py
 dotnet7 build --os linux
 cd bin/Content.Server
 ```
-Далі, для запуску серверу, в папці UA-Space-Station-14/bin/Content.Server, напишіть: ./Content.Server
 ### Windows:
 ```
 git clone https://github.com/Lines115/UA-Space-Station-14.git
@@ -39,37 +37,32 @@ py RUN_THIS.py
 dotnet build --os linux
 cd bin/Content.Server
 ```
-Далі, для запуску серверу, в папці UA-Space-Station-14/bin/Content.Server, запустіть Content.Server.exe
-
-P.s. Також для Windows потрібно завантажити [git](https://git-scm.com/downloads), [python](https://python.org/downloads), [dotnet7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+For Windows, download git, python, dotnet7.
 - - -
-# Допомога
-Якщо ви розробник та хочете допомогти в розробці не офіційного перекладу, пишіть мені на пошту: [lines115@duck.com](mailto:lines115@duck.com) або мені в діскорд: lines8810
+# Help
+Developers wanting to aid in the non-official translation's development can contact via email: lines115@duck.com or Discord: lines8810.
 
-Якщо ви не розробник та хочете допомогти в розрозбці не офіційного перекладу, можете стати моїм спонсором на github
+Non-developers can sponsor on GitHub to contribute.
 - - -
-# Користна Інфромація
+# Useful Information
 
-### Про розробку
-Нажаль, оновлення можуть не виходити тижнями або бути з не актуальною версією SS14, це затриманя розробки через те, що я (Lines) працюю один та багато часу я зайнятий іншими речами, тому розробка може не виходии довго. Дякую за розуміння
+### Development Insights
+Updates might be infrequent or based on outdated SS14 versions due to sole developer constraints, leading to potential delays in development.
 
-### Розробники
-Lines - Головний розробник та программіст, ви зараз переглядаєте переклад на його github'і (Discord: lines8810)
+### Developers
+Lines - Lead developer and programmer, overseeing the translation on their GitHub (Discord: lines8810).
 - - -
 ### Changelog
-06.10.2023 19:00 - Створення репозиторію
+06.10.2023 19:00 - Repository creation.
+07.10.23 17:10 - First build: v0.1 - Back & Ears translated.
+10.10.23 20:33 - Second build:
 
-07.10.23 17:10 - Перший білд: v0.1: Back & Ears перекладені
+Extensive update:
 
-10.10.23 20:33 - Другий білд:
+- Nearly all head-related translations completed.
+- Translated: Belts, Eye-related content, Hand-related content.
+- Work in progress for non-functional hoodie addition.
+- Functioning build on GitHub; reattempt if issues occur. Gratitude for support, assistance, and usage (even though none exists).
 
-Велике оновлення:
-
-1. Перекладено практично все, що пов'язано з головою.
-2. Перекладено: Пояси, Все що пов'язано з очима, Все що пов'язано з руками.
-3. Додано поки не робоче худі. Його робота в процесі
-4. Додано робочу збірку на github. Якщо щось не працює, спробуйте ще раз.
-Дякую за підтримку (Якої немає), допомогу (Якої також не має) та використання цього білда (Цього теж немає...) !
-
-### Подяки
-**Yastoch** за спрайти до худі та деякі коректування перекладу (Discord: yastoch)
+### Acknowledgments
+Yastoch for hoodie sprites and some translation amendments (Discord: yastoch).
