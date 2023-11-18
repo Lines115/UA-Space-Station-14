@@ -10,6 +10,7 @@
 - Based on an outdated game version with minimal updates.
 - Only 5%-6% translated, unlikely to continue further.
 - Ukrainian content distribution discontinued among Space Station 14 and its community.
+- There will be practically no update of the game version / translation
 - - -
 # UA-Space-Station-14
 Ukrainian version of Space Station 14.
